@@ -21,19 +21,19 @@
 // }
 
 // Question # 06
-
+// a)
 // let counting = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // document.write("Counting" + "<br>");
 // for (let i = 0; i <= 9; i++) {
 //     document.write(counting[i] + "<br>");
 // }
-
+// b)
 // let reverseCounting = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // document.write("Reverse Counting" + "<br>");
 // for (let i = 9; i >= 0; i--) {
 //     document.write(reverseCounting[i] + "<br>");
 // }
-
+// c)
 // let evenNumbers = [1,2,3,4,5,6,7,8,9,10];
 // document.write("Even" + "<br>")
 // for (let i = 0; i < evenNumbers.length; i++){
@@ -41,6 +41,12 @@
 //         document.write(evenNumbers[i] + "<br>")
 //     }
 // }
+// d)
+for (let i = 1; i <=20; i++){
+        if (i % 2 === 0){
+                console.log([i] + "k");
+        }
+}
 
 // Question # 07
 // const arr = ["cake", "apple pie", "cokie", "pastry" , "lolypop"];
